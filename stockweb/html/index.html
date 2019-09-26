@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <!--
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+    -->
+    <title>首页</title>
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+
+<!-- 内容显示区 -->
+<div class="content">
+    <!-- 容器-->
+    <div class="center-container">
+        <!--K线信息-->
+        <div class="k-info-div">
+            <div class="k-info-text-div-index">
+                <label class="k-info-text">日线(除权)</label>
+            </div>
+            <div class="k-info-text-div">
+                <label class="k-info-text MA5">MA5:- - - -</label>
+            </div>
+            <div class="k-info-text-div">
+                <label class="k-info-text MA10">MA10:- - - -</label>
+            </div>
+            <div class="k-info-text-div">
+                <label class="k-info-text MA20">MA20:- - - -</label>
+            </div>
+            <div class="k-info-text-div">
+                <label class="k-info-text MA30">MA30:- - - -</label>
+            </div>
+            <div class="k-info-text-div">
+                <label class="k-info-text MA60">MA60:- - - -</label>
+            </div>
+            <div class="k-info-text-div">
+                <label class="k-info-text MA120">MA120:- - - -</label>
+            </div>
+            <div class="k-info-text-div">
+                <label class="k-info-text MA250">MA250:- - - -</label>
+            </div>
+        </div>
+        <!-- K线图-->
+        <div id="k-div" class="k-div">
+            <canvas  id="k_canvas" style="background-color: #ffffff;"></canvas>
+        </div>
+        <!--显示K线图日期-->
+        <div class="k-date-div">
+            <div class="k-date-middle-div-left">
+                <label class="k-date-start">1970/01/01</label>
+            </div>
+            <div class="k-date-middle-div-right">
+                <label class="k-date-end">1970/01/01</label>
+            </div>
+            <div class="k-date-middle-div-center">
+                <label class="k-date-middle">1970/01/01</label>
+            </div>
+        </div>
+        <!-- 成交量图
+        <div id="volume-div" class="volume-div">
+            <canvas  id="volume_canvas" style="background-color: #ffffff;"></canvas>
+        </div>-->
+        <!-- KDJ图-->
+        <div id="kdj-div" class="kdj-div">
+            <canvas  id="kdj_canvas" style="background-color: #ffffff;"></canvas>
+        </div>
+        <!--KDJ信息-->
+        <div class="kdj-info-div">
+            <div class="kdj-info-text-div-index">
+                <label class="kdj-info-text">KDJ(9,3,3)</label>
+            </div>
+            <div class="kdj-info-text-div">
+                <label class="kdj-info-text k">K:100.00</label>
+            </div>
+            <div class="kdj-info-text-div">
+                <label class="kdj-info-text d">D:100.00</label>
+            </div>
+            <div class="kdj-info-text-div">
+                <label class="kdj-info-text j">J:100.00</label>
+            </div>
+        </div>
+        <!-- MACD图
+        <div id="macd-div" class="macd-div">
+            <canvas  id="macd_canvas" style="background-color: #ffffff;"></canvas>
+        </div>-->
+    </div>
+</div>
+
+<script type="text/javascript" src="../js/extend/sea.js"></script>
+<script type="text/javascript" src="../js/extend/framework.js"></script>
+</body>
+</html>

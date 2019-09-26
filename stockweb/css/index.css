@@ -1,0 +1,172 @@
+/*
+统一使用rem对页面进行整体缩放
+1rem = 20px
+需要适应页面大小的任何元素都使用 rem 为单位来定义
+*/
+.content{
+    border: solid 1px #ff0000;
+}
+
+/*中间容器*/
+.content .center-container{
+    /*margin:auto;*/
+    max-width: 640px;
+    min-width:320px;
+    /*padding-top:1rem;*/
+    background-color:#ffffff;
+    border: solid 1px #00ff00;
+}
+/*K线图*/
+.content .center-container .k-div{
+    margin: auto;
+    max-width: 600px;
+    max-height: 350px;
+    min-width: 300px;
+    min-height: 175px;
+    background-color: #171616;/*不加背景色，宽度缩小到320px后底部有白边*/
+    /*注意：KMain.js的initStageSize()方法自适应大小参数也要修改*/
+}
+/*K线信息*/
+.content .center-container .k-info-div{
+    margin: auto;
+    max-width: 600px;
+    max-height: 60px;
+    min-width: 300px;
+    min-height: 40px;
+    background-color: #171616;
+}
+.content .center-container .k-info-div .k-info-text-div-index{
+    width:70px;
+    float:left;
+}
+.content .center-container .k-info-div .k-info-text-div{
+    width:120px;
+    float:left;
+}
+.content .center-container .k-info-div .k-info-text{
+    font-size: 14px ;
+    font-family:Arial;
+    color:#777777 ;
+    float:left;
+}
+.content .center-container .k-info-div .MA5{
+    color:#ffffff;
+}
+.content .center-container .k-info-div .MA10{
+    color:#ffff0b;
+}
+.content .center-container .k-info-div .MA20{
+    color:#ff80ff;
+}
+.content .center-container .k-info-div .MA30{
+    color:#00e600;
+}
+.content .center-container .k-info-div .MA60{
+    color:#02e2f4;
+}
+.content .center-container .k-info-div .MA120{
+    color:#ffffb9;
+}
+.content .center-container .k-info-div .MA250{
+    color:#818123;
+}
+/*开始和结束日期*/
+.content .center-container .k-date-div{
+    margin: auto;
+    max-width: 600px;
+    max-height: 40px;
+    min-width: 300px;
+    min-height: 20px;
+    background-color: #171616;
+}
+.content .center-container .k-date-div .k-date-middle-div-left{
+    width: 75px;
+    height: 100%;
+    float: left;
+}
+.content .center-container .k-date-div .k-date-start{
+    font-size: 14px ;
+    font-family:Arial;
+    color:#777777 ;
+}
+.content .center-container .k-date-div .k-date-middle-div-right{
+    width: 75px;
+    height: 100%;
+    float: right;
+}
+.content .center-container .k-date-div .k-date-end{
+    font-size: 14px ;
+    font-family:Arial;
+    color:#777777 ;
+}
+/*中间日期*/
+.content .center-container .k-date-div .k-date-middle-div-center{
+    margin: auto;
+    width: 75px;
+    height: 100%;
+}
+.content .center-container .k-date-div .k-date-middle{
+    font-size: 14px ;
+    font-family:Arial;
+    color:#777777 ;
+}
+/*Volume图*/
+.content .center-container .volume-div{
+    margin: auto;
+    max-width: 600px;
+    max-height: 100px;
+    min-width: 300px;
+    min-height: 50px;
+    background-color: #171616;
+}
+/*KDJ信息*/
+.content .center-container .kdj-info-div{
+    margin: auto;
+    max-width: 600px;
+    max-height: 40px;
+    min-width: 300px;
+    min-height: 20px;
+    background-color: #171616;
+}
+.content .center-container .kdj-info-div .kdj-info-text{
+    font-size: 14px ;
+    font-family:Arial;
+    color:#777777 ;
+    float:left;
+}
+.content .center-container .kdj-info-div .k{
+    color:#ffffff;
+}
+.content .center-container .kdj-info-div .d{
+    color:#ff6d33 ;
+}
+.content .center-container .kdj-info-div .j{
+    color:#e56397 ;
+}
+.content .center-container .kdj-info-div .kdj-info-text-div-index{
+    width:80px;
+    float:left;
+}
+.content .center-container .kdj-info-div .kdj-info-text-div{
+    width:65px;
+    float:left;
+}
+/*KDJ图*/
+.content .center-container .kdj-div{
+    margin: auto;
+    max-width: 600px;
+    max-height: 120px;
+    min-width: 300px;
+    min-height: 60px;
+    background-color: #171616;/*不加背景色，宽度缩小到300px后底部有白边*/
+    /*注意：KDJMain.js的initStageSize()方法自适应大小参数也要修改*/
+}
+/*MACD图*/
+.content .center-container .macd-div{
+    margin: auto;
+    max-width: 600px;
+    max-height: 120px;
+    min-width: 300px;
+    min-height: 60px;
+    background-color: #171616;
+}
