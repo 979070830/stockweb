@@ -3,3 +3,4 @@
 
 温馨提示：
 使用键盘左右方向键移动股票，上下方向键放大和缩小股票。
+ ![image](https://github.com/mingfanwang/stockweb/blob/master/%E6%BC%94%E7%A4%BA%E5%9B%BE.png)
