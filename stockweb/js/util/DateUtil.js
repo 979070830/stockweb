@@ -1,4 +1,5 @@
 ﻿/**
+* Created by 王明凡 on 2016/3/20.
 * 日期处理工具类
 */
 define(function(require, exports, module){

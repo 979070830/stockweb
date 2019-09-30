@@ -1,5 +1,5 @@
 /**
- * Created by Administrator on 2016/4/10.
+ * Created by 王明凡 on 2016/4/10.
  * 键盘移动事件
  */
 define(function (require, exports, module) {

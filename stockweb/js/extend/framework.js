@@ -1,4 +1,5 @@
 /**
+ * Created by 王明凡 on 2016/3/20.
  * 公共js导入
  */
 (function() {

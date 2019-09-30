@@ -1,5 +1,5 @@
 /**
- * Created by Administrator on 2016/3/20.
+ * Created by 王明凡 on 2016/3/20.
  * 数组工具类
  */
 define(function(require, exports, module){

@@ -1,5 +1,5 @@
 ﻿/**
- * Created by Administrator on 2016/3/18.
+ * Created by 王明凡 on 2016/3/18.
  */
 define(function(require, exports, module){
 
